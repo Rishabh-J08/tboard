@@ -3,6 +3,7 @@ import { Bell, Menu, Plus, Search, X, Trash2 } from 'lucide-react';
 import { Column, Task, Priority } from '../types/kanban';
 import { initialColumns } from '../data/initial-data';
 import { Alert, AlertDescription } from './alert';
+import avatar from "../assets/the.svg"
 
 interface CreateTaskForm {
   title: string;
@@ -167,9 +168,9 @@ const KanbanBoard = () => {
               <button className="p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100 rounded-full">
                 <Bell className="h-6 w-6" />
               </button>
-              <div className="relative">
+              <div className="relative rounded">
                 <img
-                  src="src/assets/avatar.avif"
+                  src="https://cdn-icons-png.flaticon.com/128/3558/3558860.png"
                   alt="User"
                   className="h-8 w-8 rounded-full ring-2 ring-white"
                 />
