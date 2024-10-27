@@ -3,7 +3,7 @@ import { Bell, Menu, Plus, Search, X, Trash2 } from 'lucide-react';
 import { Column, Task, Priority } from '../types/kanban';
 import { initialColumns } from '../data/initial-data';
 import { Alert, AlertDescription } from './alert';
-import avatar from "../assets/the.svg"
+//import avatar from "../assets/the.svg"
 
 interface CreateTaskForm {
   title: string;
